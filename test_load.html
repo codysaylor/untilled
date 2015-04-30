@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/scss/cody.css">
+</head>
+<body>
+	<button class="yolo">YOLO</button>
+	<div class="holdme">yyyy</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/vendor/jquery.flexslider-min.js"></script>
+	<script>
+	$(function(){
+		$('.yolo').click(function(){
+			$('.holdme').load('test_flexslider.html', function(){
+				$('.flexslider').flexslider({
+					animation: 'slide'
+				});
+			});
+		});
+	});
+	</script>
+</body>
+</html>

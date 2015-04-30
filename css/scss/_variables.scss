@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Aleo;
+    src: url('../fonts/aleo-regular-webfont.eot');
+    src: url('../fonts/aleo-regular-webfont.woff2') format('woff2'),
+    url('../fonts/aleo-regular-webfont.woff') format('woff'),
+    url('../fonts/aleo-regular-webfont.ttf')  format('truetype'),
+    url('../fonts/aleo-regular-webfont.svg') format('svg');
+}
+
+@font-face {
+    font-family: AlegreyaSans;
+    src: url(../fonts/AlegreyaSans-Bold.otf);
+}
+
+$font-primary: 'Open Sans', sans-serif;
+$font-header: 'Aleo', serif;
+$font-header-subtitle: 'Source Sans Pro', sans-serif;
+$font-h2: 'AlegreyaSans', sans-serif;
+
+$color-primary: #EEE47F;
+$color-secondary: #EEE47F;
+$color-tertiary: #F1E37A;
+$color-4: #6C6C2D;
+$color-5: #3E1F12;

@@ -1,0 +1,155 @@
+// body, html, * {margin: 0; padding: 0; font-family: sans-serif;} img {display: block; width: 100%; margin: 0; padding: 0;}
+$marg: 2%;
+//$panel1: rgba(204, 114, 40, 0.7);
+$panel1: rgba(109, 96, 56, 0.7);
+$panel2: rgba(109, 96, 56, 0.7);
+$trans: 0.3s;
+$sm: 640px;
+$md: 800px;
+ul.thumb-wrapper {
+	margin: 0 auto; padding: 0;
+	color: white;
+	.fade{
+		@media only screen and (max-width: ($sm - 1)) {
+			width: 96%;
+			margin: $marg $marg 0 $marg;
+		}
+		
+	}
+  .bottomnode {
+		@media only screen and (min-width: ($sm)) {
+	  	width: 30.66%;
+			&:nth-child(3) {
+				margin: $marg;
+			}
+			&:nth-child(4) {
+				margin: $marg $marg $marg 0;
+			}
+			&:nth-child(5) {
+				margin: $marg $marg $marg 0;
+			}
+		}
+		@media only screen and (min-width: ($sm)) {
+	  	width: 30.66%;
+			&:nth-child(3) {
+				margin: $marg;
+			}
+			&:nth-child(4) {
+				margin: $marg $marg $marg 0;
+			}
+			&:nth-child(5) {
+				margin: $marg $marg $marg 0;
+			}
+		}
+  }
+  li {
+		list-style: none;
+		width: 50%;
+		float: left;
+		p {
+			padding: 0% 5%;
+			color: #CCC8A9;
+			font-size: .8em;
+			text-align: center;
+		}
+		
+		.overlay-wrapper {
+			cursor: pointer;
+			padding: 0;
+			margin: $marg $marg 0;
+			position: relative;
+			overflow: hidden;
+			img {width: 100%;}
+			@media only screen and (max-width: ($sm - 1)) {
+				//width: (100% - $marg * 2);
+				width: 96%;
+				&:nth-child(even) .overlay:before {
+					background: $panel1;
+				}
+				&:nth-child(even) .overlay:after {
+					background: $panel2;
+				}
+			}
+			@media only screen and (min-width: $sm) {
+				//width: (100% - $marg * 3)/2;
+				width: 96%;
+				&:nth-child(even) {
+					margin-left: 0;
+				}
+			}
+			.overlay {
+				&:before {
+					content: "";
+					position: absolute;
+					background: $panel2;
+					top: 0;
+					left: 0;
+					width: 50%;
+					height: 100%;
+					transition: .3s;
+				}
+				&:after {
+					content: "";
+					position: absolute;
+					background: $panel1;
+					top: 0;
+					left: 50%;
+					width: 50%;
+					height: 100%;
+					transition: $trans;
+				}
+				span {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					display: -webkit-box;
+					display: -ms-flexbox;
+					display: -webkit-flexbox;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					text-align: center;
+					z-index: 1;
+					color: rgba(255,255,255,.7);
+					font-size: 3.0em;
+					font-style: italic;
+					font-family: 'Lora', serif;
+					transition: $trans;
+					@media only screen and (max-width: $md) {
+						font-size: 2.0em;
+					}
+
+				}
+				
+			}
+		}
+	}
+}
+.overlay- {
+	&:before {
+		-webkit-transform: translate(-100%);
+		-ms-transform: translate(-100%);
+		transform: translate(-100%);
+	}
+	&:after {
+		-webkit-transform: translate(100%);
+		-ms-transform: translate(100%);
+		transform: translate(100%);
+	}
+}
+.span- {
+	opacity: 0;
+	@media only screen and (min-width: $sm) {
+		-webkit-transform: translate(0, 28%);
+		-ms-transform: translate(0, 28%);
+		transform: translate(0, 28%);
+	}
+	@media only screen and (min-width: $md) {
+		-webkit-transform: translate(0, 34%);
+		-ms-transform: translate(0, 34%);
+		transform: translate(0, 34%);
+		//font-size: 2em !important;
+	}
+}

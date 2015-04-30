@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1014.5 216" enable-background="new 0 0 1014.5 216" xml:space="preserve">
+<polyline fill="#56412A" points="188.5,85.3 142.7,180.6 142.7,119 189.2,23.6 "/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="188.4857" y1="54.4584" x2="927.8192" y2="54.4584">
+	<stop  offset="0" style="stop-color:#675236"/>
+	<stop  offset="0.8883" style="stop-color:#675236;stop-opacity:0.1117"/>
+	<stop  offset="1" style="stop-color:#675236;stop-opacity:0"/>
+</linearGradient>
+<polyline fill="url(#SVGID_1_)" points="189.2,23.6 927.8,23.6 927.8,85.3 188.5,85.3 "/>
+<polyline fill="#675236" points="36.7,119 142.5,119 142.5,180.6 36.6,180.6 "/>
+<polygon fill="#BA6328" points="169.8,124.4 142.7,180.6 142.3,150.1 169.8,93.5 "/>
+<rect x="169.8" y="93.5" fill="#CC7329" width="214.2" height="30.8"/>
+<rect x="67" y="150" fill="#CC7329" width="75.7" height="30.8"/>
+<polygon fill="#F0E37A" points="266,149.1 157.9,149.2 165.1,134.2 272.5,134.2 "/>
+<polygon fill="#6D6C2D" points="168.9,172.2 146.7,172.3 153.5,158.5 175.4,158.5 "/>
+<polygon fill="#5E5E28" points="146.7,172.3 146.8,158.6 153.8,144.5 153.7,158.3 "/>
+<polygon fill="#C1AF56" points="158,148.9 158.1,134.8 165.2,121.3 165,134.5 "/>
+<text transform="matrix(1 0 0 1 840.6838 81.958)" opacity="0.3" fill="#F2F2F2" font-family="'OpenSans'" font-size="13">318.9 mil</text>
+<text transform="matrix(1 0 0 1 391.3508 123.9582)" opacity="0.9" fill="#CC7329" font-family="'OpenSans'" font-size="13">23.5 mil</text>
+<text transform="matrix(0.9356 0 -0.353 0.9356 274.9114 148.9175)" opacity="0.9" fill="#F0E37A" font-family="'OpenSans'" font-size="13.8947">13.5 mil</text>
+<text transform="matrix(0.9511 0 -0.309 0.9511 177.424 172.3335)" opacity="0.9" fill="#6D6C2D" font-family="'OpenSans'" font-size="13.669">2.3 mil</text>
+</svg>
