@@ -1,11 +1,11 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,300,200,400);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,300,200,400);
-@import url(http://fonts.googleapis.com/css?family=Amethysta);
-@import url(http://fonts.googleapis.com/css?family=Gilda+Display);
-@import url(http://fonts.googleapis.com/css?family=Lora:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,300,200,400);
+@import url(https://fonts.googleapis.com/css?family=Amethysta);
+@import url(https://fonts.googleapis.com/css?family=Gilda+Display);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic);
 
 
 html {
@@ -79,18 +79,18 @@ nav#menu {
 
 nav#menu #menu-nav {
   margin: 0;
-  padding: 0; 
+  padding: 0;
   text-align: right;
 }
 
 nav#menu #menu-nav li {
   list-style: none;
   display: inline-block;
-  margin-left: 50px;  
+  margin-left: 50px;
 }
 
 nav#menu #menu-nav li:first-child {
-  margin-left: 0; 
+  margin-left: 0;
 }
 
 nav#menu #menu-nav li a {
@@ -124,7 +124,7 @@ nav#menu a {
 }
 
 #mobile li	{
-	
+
 }
 
 #mobile a	{
@@ -176,7 +176,7 @@ section.page1 h1 {
   color: rgba(140, 122, 68, .7);
   margin-bottom: -30px;
   text-align: center;
-  
+
 }
 section.page1 h3 {
   color: #fff;
@@ -202,8 +202,8 @@ section.page1 h3 {
 	height: 50vh;
 }
 #intro{
-	color:rgba(140, 122, 68,1); 
-	font-family: 'Lora',serif; 
+	color:rgba(140, 122, 68,1);
+	font-family: 'Lora',serif;
 	font-size: 2.0em;
 	font-style: italic;
 }
@@ -212,13 +212,13 @@ section.page1 h3 {
   height: 100vh;
 
 	background: linear-gradient(
-      rgba(255, 225, 225, 0), 
+      rgba(255, 225, 225, 0),
       rgba(0, 0, 0, .1),
-      rgba(42, 37, 28, 1)), 
+      rgba(42, 37, 28, 1)),
       url(../img/background/bg.jpg) no-repeat center center;
-      
+
 	background-size: cover;
-	
+
 }
 
 /* Middle section =================*/
@@ -256,7 +256,7 @@ section.page1 h3 {
 }
 .main section.page5 {
 
-  	
+
 }
 
 .page_container{
@@ -271,7 +271,7 @@ section.page1 h3 {
 .info{
 	width: 85%;
 	margin: 0 auto 50px;
-	
+
 }
 
 .img_info{
@@ -293,20 +293,20 @@ section.page1 h3 {
 	right: 0;
 	margin: 0 auto;
 	opacity: .8;
-	
+
 }
 
 
 
 #test{
-	background:linear-gradient(90deg, rgba(36, 24, 8, 1),rgba(50, 37, 28, .9), 
+	background:linear-gradient(90deg, rgba(36, 24, 8, 1),rgba(50, 37, 28, .9),
 		rgba(35, 23, 8, 1)),url(../img/background/dirt_blur.jpg) no-repeat center center fixed;
 	background-size: cover;
 	position: relative;
 	margin: 0 auto;
 	min-height: 300vh;
 	width: 100%;
-	
+
 }
 
 #middle{
@@ -328,7 +328,7 @@ section.page1 h3 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 200;
 	font-size: 1.2em;
-	text-align: left;	
+	text-align: left;
 }
 
 .source{
@@ -389,7 +389,7 @@ nav#footer_menu {
 
 nav#footer_menu #footer_menu-nav {
   margin: 0;
-  padding: 0; 
+  padding: 0;
   text-align: right;
 }
 
@@ -400,11 +400,11 @@ nav#footer_menu #footer_menu-nav li {
 }
 
 nav#footer_menu #footer_menu-nav li:first-child {
-  margin-left: 0; 
+  margin-left: 0;
 }
 
 nav#footer_menu #footer_menu-nav li:last-child {
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 nav#footer_menu #footer_menu-nav li a {
   color: rgba(140, 122, 68, .7);
@@ -452,7 +452,7 @@ nav#footer_menu a {
 /* Credits page */
 
 #cred_contain{
-  
+
   max-width: 1000px;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
@@ -513,18 +513,18 @@ nav#footer_menu a {
 	    margin: 0 auto;
 	    background: white;
 	}
-	
+
 	.story.show {
 	    //padding: 20px;
 	    //width: auto;
 	    background: none;
 	}
 
-	
+
 	.wrapper-story {
 		overflow-x: hidden;
 	}
-	
+
 	div.header h3{
 		float: right;
 		position: absolute;
@@ -532,7 +532,7 @@ nav#footer_menu a {
 		right: 20px;
 		font-weight: 300;
 	}
-	
+
 	div.header h2{
 		width: auto;
 		float: left;
@@ -549,7 +549,7 @@ nav#footer_menu a {
 		margin-top: 40px;
 		padding: 20px 20px 0px ;
 	}
-	
+
 	div.article-content p {
 		margin: 0 auto;
 		max-width: 720px;
@@ -561,8 +561,8 @@ nav#footer_menu a {
 		margin: 40px auto 80px;
 		max-width: 1000px;
 	}
-	
-	.firstcharacter { 
+
+	.firstcharacter {
 		float: left;
 		font-size: 101px;
 		color: rgba(140,122,68,100);
@@ -572,7 +572,7 @@ nav#footer_menu a {
 		padding-left: 3px;
 		font-family: 'Lora', serif;
 	}
-	
+
 	div.branding {
 		position: relative;
 		width: auto;
@@ -583,7 +583,7 @@ nav#footer_menu a {
 		right: 10px;
 		font-size: x-small;
 	}
-	
+
 	blockquote {
 		padding-left: 15px;
 		border-left: 3px solid rgba(229, 221, 196, 1);
@@ -600,7 +600,7 @@ nav#footer_menu a {
 	font-size: .8em !important;
     position:relative;
 	margin: 0 auto;
-    color:#7A7554;   
+    color:#7A7554;
     padding:5px;
     text-align: center;
 }
@@ -617,7 +617,7 @@ nav#footer_menu a {
    ========================================================================== */
 
 @media only screen and (max-width: 900px) {
-	
+
 	nav#menu{
 		display: none;
 	}
@@ -646,14 +646,14 @@ nav#footer_menu a {
 	#mobileline_graph{
 		max-width:  200px !important;
 	}
-	
+
 }
 
 @media only screen and (max-width: 600px){
 	.desc_title, div.header h2{
 		font-size: 2.0em;
 	}
-	
+
 
 }
 
